@@ -100,7 +100,7 @@ body {
 .change {
     font-weight: 700;
     text-decoration: underline;
-    color: hsl(271, 68%, 32%);
+    color: var(--bright-blue);
 }
 
 .change:hover {
@@ -157,9 +157,18 @@ body {
     .bottomContainer {
         padding: 3rem;
         height: 478px;
+        gap: 2rem;
+    }
+
+    .planContainer {
+        height: 100px;
     }
 
     .orderSummary {
-        font-size: 2rem;
+        font-size: 1.8rem;
+    }
+
+    .cancelBtn {
+        height: auto;
     }
 }
