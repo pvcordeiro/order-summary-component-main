@@ -83,6 +83,11 @@ body {
     padding: 0 1rem;
 }
 
+.priceContainer {
+    padding-left: 1rem;
+    flex: 1;
+}
+
 .planDetails {
     font-weight: 700;
 }
@@ -133,4 +138,28 @@ body {
 .cancelBtn:hover {
     cursor: pointer;
     color: black;
+}
+
+@media (min-width: 768px) {
+    body {
+        background-image: url(./images/pattern-background-desktop.svg);
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: contain;
+        background-attachment: fixed;
+    }
+
+    .mainContainer {
+        width: 450px;
+        height: 698px;
+    }
+
+    .bottomContainer {
+        padding: 3rem;
+        height: 478px;
+    }
+
+    .orderSummary {
+        font-size: 2rem;
+    }
 }
